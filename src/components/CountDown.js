@@ -7,7 +7,7 @@ const CountDown = () => {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
     useEffect(() => {
-        const countDownDate = new Date("Dec 11, 2019 22:53:35").getTime();
+        const countDownDate = new Date("Jan 25, 2023 13:53:35").getTime();
         const x = setInterval(() => {
 
             // Get today's date and time
@@ -63,7 +63,7 @@ const CountDown = () => {
 
                         <div className="remaining-time">
                             {isExpired
-                                ? <div>Yay....</div>
+                                ? <div>Marriage completed</div>
                                 :
                                 <div id="clock">
                                     <div className="time-sec"><span className="title">{days}</span> Days </div>
